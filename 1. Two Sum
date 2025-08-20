@@ -1,0 +1,50 @@
+Link:https://leetcode.com/problems/two-sum/description/?envType=problem-list-v2&envId=r1av0ikg
+
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+       int size=nums.size();
+        vector<int>duplicate(size);
+        vector<int>ans;
+        for(int i=0;i<size;i++){
+            duplicate[i]=nums[i];
+        }
+        
+        sort(duplicate.begin(),duplicate.end());
+
+        int l=0,r=size-1;
+        while(l<r){
+            int sum=duplicate[l]+duplicate[r];
+            if(sum>target && l<r){
+                r--;
+                continue;
+            }
+            else if(sum<target && l<r){
+                l++;
+                continue;
+            }
+            else{
+                break;
+            }
+        }
+        int cnt=0;
+        for(int k=0;k<size;k++){
+            if(duplicate[l]==nums[k]||duplicate[r]==nums[k]){
+                ans.push_back(k);
+                cnt++;
+            }
+            if(cnt==2){
+                break;
+            }
+        }
+
+        return ans;
+
+        
+
+
+
+        
+    }
+};
