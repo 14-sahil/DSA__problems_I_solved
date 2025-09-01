@@ -1,6 +1,6 @@
 # DSA__problems_I_solved
 
-This repository contains my solutions to various **LeetCode problems+ GFG** solved in **C++**.  
+This repository contains my solutions to various **LeetCode + GFG problems** solved in **C++**.  
 The questions are organized by topic for easy navigation.  
 
 ---
