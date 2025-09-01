@@ -21,7 +21,8 @@ The questions are organized by topic for easy navigation.
 12. [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) – Easy  
 13. [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) – Easy  
 14. [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) – Medium  
-15. [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) – Easy  
+15. [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) – Easy
+16. [Find a rotation with maximum hamming distance](https://www.geeksforgeeks.org/dsa/find-a-rotation-with-maximum-hamming-distance/) -Medium 
 
 ---
 
