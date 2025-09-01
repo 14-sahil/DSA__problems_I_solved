@@ -1,0 +1,45 @@
+Find a rotation with maximum hamming distance
+link:https://www.geeksforgeeks.org/dsa/find-a-rotation-with-maximum-hamming-distance/
+
+
+// Online C++ compiler to run C++ program online
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    
+    int arr[]={2,4};
+    int size=sizeof(arr)/sizeof(int);
+    int maxH=0;
+    int grr[size*2];
+    for(int l=0;l<size;l++){
+        grr[l]=arr[l];
+        grr[l+size]=arr[l];
+    }
+    for(auto it:grr){
+        cout<<it<<" ";
+    }
+    cout<<endl;
+    cout<<endl;
+  int curH;
+    for(int i=1;i<size;i++){
+        int j=i;
+        curH=0;
+        for(int k=0;k<size;k++){
+            if(arr[k]!=grr[j]){
+                curH++;
+            }
+            
+            if(curH==size){
+                cout<<"Res i: "<<curH<<endl;
+                return 0;
+            }
+            maxH=max(maxH,curH);
+            j++;
+        }
+        
+    }
+    cout<<"Res o: "<<curH<<endl;
+    
+    return 0;
+}
