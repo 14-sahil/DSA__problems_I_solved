@@ -22,7 +22,8 @@ The questions are organized by topic for easy navigation.
 13. [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) – Easy  
 14. [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) – Medium  
 15. [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) – Easy
-16. [Find a rotation with maximum hamming distance](https://www.geeksforgeeks.org/dsa/find-a-rotation-with-maximum-hamming-distance/) -Medium 
+16. [Find a rotation with maximum hamming distance](https://www.geeksforgeeks.org/dsa/find-a-rotation-with-maximum-hamming-distance/) - Medium
+17. [Count Distinct Elements In Every Window of Size K](https://www.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1) - Medium
 
 ---
 
@@ -45,7 +46,8 @@ The questions are organized by topic for easy navigation.
 15. [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) – Easy  
 16. [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) – Easy  
 17. [Rotate Image](https://leetcode.com/problems/rotate-image/) – Medium  
-18. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) – Easy  
+18. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) – Easy
+19. [Check if a given string is a rotation of a palindrome](https://www.geeksforgeeks.org/problems/check-if-a-given-string-is-a-rotation-of-a-palindrome0317/1) - Easy
 
 ---
 
