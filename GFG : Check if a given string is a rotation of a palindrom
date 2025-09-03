@@ -1,0 +1,36 @@
+
+// User function template for C++
+class Solution {
+  public:
+
+    int isRotatedPalindrome(string s) {
+        // code here
+        string db[2*s.size()];
+        
+        for(int i=0;i<s.size();i++){
+            db[i]=s[i];
+            db[s.size()+i]=s[i];
+        }
+        bool ans;
+         for(int i=1;i<=s.size();i++){
+         
+             int j=i;
+             int k=s.size()+i;
+             ans=true;
+             while(j<k){
+                 if(db[j]!=db[k-1]){
+                     ans=false;
+                     break;
+                 }
+                 j++,k--;
+             }
+             if(ans){
+                 return 1;
+             }
+             
+         }
+         
+         return 0;
+         
+    }
+};
