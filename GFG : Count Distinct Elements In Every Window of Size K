@@ -1,0 +1,40 @@
+GFG: Count Distinct Elements In Every Window of Size K
+link: http://geeksforgeeks.org/dsa/count-distinct-elements-in-every-window-of-size-k/
+
+class Solution {
+  public:
+    vector<int> countDistinct(vector<int> &arr, int k) {
+        // code here
+        int i=0,j=k-1,a=0;
+        // set<int>s1;
+        vector<int>ans;
+        map<int,int>m1;
+       
+        while(j<arr.size()){
+            
+           if(i==0){
+            while(i<=j){
+                    // s1.insert(arr[i]);
+                    m1[arr[i]]++;
+                    i++;
+            }
+           } 
+                    ans.push_back(m1.size());
+                    if(m1[arr[a]]==1){
+                   
+                    m1.erase(arr[a]);
+                    }
+                    else{
+                        m1[arr[a]]--;
+                    }
+                    a++;
+                    j++;
+                    
+                    m1[arr[j]]++;
+                
+            
+        }
+        
+        return ans;
+    }
+};
